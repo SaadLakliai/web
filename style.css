@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	background: linear-gradient(45deg, lightgreen, lightblue);
+}
+
+.navbar {
+	width: 100%;
+	height: 15vh;
+	background: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.name {
+	padding: 1rem;
+	font-size: 20px;
+	font-family: 'Courier new', monospace;
+	font-weight: bolder;
+}
+
+.navbar-links {
+	width: 50%;
+	height: inherit;
+}
+
+.navbar-links ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10vh;
+}
+
+.navbar-links li {
+	list-style: none;
+}
+
+.navbar-links li a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Courier new', monospace;
+	font-weight: bolder;
+}
+
+.navbar-links li:hover {
+	background: #333;
+}
+
+.section {
+	width: 100%;
+	min-height: 50vh;
+	margin: 0;
+	position: absolute;
+	top: 15vh;
+	left: 0;
+}
+
+.section-1 {
+	width: 75%;
+	min-height: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.h1 {
+	color: white;
+	font-size: 3rem;
+	font-weight: bolder;
+	font-family: 'Courier new', monospace;
+}
+
+.h1 .typing {
+	color: yellow;
+}
+
+.p {
+	color: black;
+	font-weight: bolder;
+	font-family: 'Courier new', monospace;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.p::selection {
+	background: black;
+	color: white;
+}
+
+.section-2 {
+	width: 25%;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	left: 75%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: red;
+}
+
+img[src="img/coding.jpg"] {
+	width: 25vw;
+	height: 300px;
+}
+
+.separator {
+	width: 100%;
+	height: .5rem;
+	background: black;
+	position: absolute;
+	top: 75%;
+	left: 0;
+}
+
+
